@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalActivity">
+
+    <EditText
+        android:id="@+id/etjournal"
+        android:layout_width="325dp"
+        android:layout_height="548dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <EditText
+        android:id="@+id/etinfo"
+        android:layout_width="323dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:text="save"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:text="cancel"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
